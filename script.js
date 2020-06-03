@@ -14,7 +14,7 @@ let url = "https://ghibliapi.herokuapp.com/films";
     console.log(inputButton)
     inputButton.addEventListener('click', function() {fetch(url)
         .then(response=>response.json()) 
-        .then((response => { let random = getRandomInt(21)
+        .then((response => { let random = getRandomInt(20)
             console.log(response[random]);
             title.innerText = response[random].title
             release_date.innerText = response[random].release_date
