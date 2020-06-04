@@ -82,6 +82,11 @@ input:focus {
 
 }
 
+#img {
+    max-height: 350px;
+    margin-bottom: 30px;
+}
+
 #section {
     text-align: left;
 }
