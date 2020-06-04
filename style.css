@@ -107,3 +107,10 @@ footer p {
     font-size: 0.8em;
     padding-left: 20px;
 }
+
+@media screen and (max-width: 641px) {
+    #img {
+        max-height: 150px;
+    }
+
+}
